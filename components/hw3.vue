@@ -34,6 +34,7 @@ export default {};
 .box-card {
   width: 520px;
   height: 500px;
+  margin-left: 30%;
 }
 .openHW {
   color: aliceblue;

@@ -23,8 +23,8 @@ export default {
 
 <style>
 #app {
-  width: 1000px;
-  margin: 0 auto;
+  width: auto;
+  margin: 0 0;
   height: 100%;
   animation: Cool 5s infinite;
   line-height: 150%;
@@ -44,7 +44,7 @@ export default {
 }
 
 .footer {
-  width: 1000px;
+  width: auto;
   height: 10%;
 }
 

@@ -62,10 +62,6 @@ export default {};
   flex-wrap: wrap;
 }
 
-.text {
-  font-size: 14px;
-}
-
 .item {
   margin-bottom: 18px;
 }
@@ -82,7 +78,7 @@ export default {};
 .box-card {
   width: 250px;
   height: 300px;
-  margin: 15px;
+  margin: 20px;
 }
 
 @media only screen and (max-width: 480px) {

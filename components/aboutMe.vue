@@ -1,13 +1,13 @@
 <template>
-  <div class="about">
+  <div class="about-wrapper">
     <div class="big">
       <el-row>
-        <el-col :span="10">
+        <el-col :span="12">
           <div>
-            <img src="/jshw1_nuxt/me.jpg" width="300" height="400" />
+            <img src="/jshw1_nuxt/me.jpg" style="float: right; margin-right: 10%;" width="300" height="400" />
           </div>
         </el-col>
-        <el-col :span="14">
+        <el-col :span="12">
           <br/>
           <h3>基本資料</h3>
           <br />
@@ -34,7 +34,7 @@
       <el-row>
         <el-col>
           <div>
-            <img src="/me.jpg" width="300" height="400" />
+            <img src="/jshw1_nuxt/me.jpg" width="300" height="400" />
           </div>
         </el-col>
       </el-row>
@@ -68,8 +68,8 @@ export default {};
 </script>
 
 <style>
-.about {
-  min-height: 640px;
+.about-wrapper {
+  height: 700px;
 }
 
 .big {

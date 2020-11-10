@@ -78,6 +78,7 @@
         ></el-menu-item
       >
     </el-menu>
+    
     <br />
     <div class="content" v-if="activeIndex === '1'">
       <About />
@@ -145,7 +146,7 @@ export default {
 }
 
 .content {
-  margin-left: 20%;
+  margin-left: 10%;
   min-height: 700px;
 }
 a {
