@@ -57,17 +57,17 @@
       <el-submenu index="3">
         <template slot="title">作業</template>
         <el-menu-item index="3-1">
-          <a href="/hw2_0716055/hw2-0716055-王耀德.html" target="_blank">
+          <a href="/jshw1_nuxt/hw2_0716055/hw2-0716055-王耀德.html" target="_blank">
             hw2
           </a></el-menu-item
         >
         <el-menu-item index="3-2">
-          <a href="/hw3_0716055/hw3-0716055-王耀德.html" target="_blank">
+          <a href="/jshw1_nuxt/hw3_0716055/hw3-0716055-王耀德.html" target="_blank">
             hw3
           </a></el-menu-item
         >
         <el-menu-item index="3-3">
-          <a href="/hw4_0716055/OOJS3.html" target="_blank">
+          <a href="/jshw1_nuxt/hw4_0716055/OOJS3.html" target="_blank">
             hw4
           </a></el-menu-item
         >

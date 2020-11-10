@@ -12,7 +12,7 @@
         >
           <a
             class="openHW"
-            href="/hw3_0716055/hw3-0716055-王耀德.html"
+            href="/jshw1_nuxt/hw3_0716055/hw3-0716055-王耀德.html"
             target="_blank"
           >
             View HW3

@@ -4,7 +4,7 @@
       <el-row>
         <el-col :span="10">
           <div>
-            <img src="/me.jpg" width="300" height="400" />
+            <img src="/jshw1_nuxt/me.jpg" width="300" height="400" />
           </div>
         </el-col>
         <el-col :span="14">

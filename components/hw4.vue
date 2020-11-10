@@ -10,7 +10,7 @@
           type="primary"
           round
         >
-          <a class="openHW" href="/hw4_0716055/OOJS3.html" target="_blank">
+          <a class="openHW" href="/jshw1_nuxt/hw4_0716055/OOJS3.html" target="_blank">
             View HW4
           </a>
         </el-button>
