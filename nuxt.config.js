@@ -11,7 +11,9 @@ export default {
   ssr: false,
   target: 'static',
   
-  ...routerBase,
+  router: {
+    base: '/jshw1_nuxt/'
+  },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
