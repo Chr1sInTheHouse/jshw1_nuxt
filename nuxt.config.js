@@ -42,6 +42,6 @@ export default {
   },
     
   router: {
-      base: '/master/'
+      base: '/jshw1_nuxt/'
   }
 }
