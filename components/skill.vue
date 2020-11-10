@@ -60,8 +60,6 @@ export default {};
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  background: transparent;
-  min-height: 650px;
 }
 
 .text {

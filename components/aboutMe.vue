@@ -2,12 +2,13 @@
   <div class="about">
     <div class="big">
       <el-row>
-        <el-col :span="8">
+        <el-col :span="10">
           <div>
             <img src="/me.jpg" width="300" height="400" />
           </div>
         </el-col>
-        <el-col :span="16">
+        <el-col :span="14">
+          <br/>
           <h3>基本資料</h3>
           <br />
           <ul>

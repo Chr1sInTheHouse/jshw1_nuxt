@@ -9,22 +9,33 @@
       background-color="#fff"
       active-text-color="#4fb379"
     >
-      <el-menu-item index="1">About me</el-menu-item>
+      <el-menu-item index="1">關於我</el-menu-item>
       <el-menu-item index="2">專長</el-menu-item>
       <el-submenu index="3">
         <template slot="title">作業</template>
         <el-menu-item index="3-1">
-          <a class="hw" href="/hw2_0716055/hw2-0716055-王耀德.html" target="_blank">
+          <a
+            class="hw"
+            href="/hw2_0716055/hw2-0716055-王耀德.html"
+            target="_blank"
+          >
             hw2
-          </a></el-menu-item>
+          </a></el-menu-item
+        >
         <el-menu-item index="3-2">
-          <a class="hw" href="/hw3_0716055/hw3-0716055-王耀德.html" target="_blank">
+          <a
+            class="hw"
+            href="/hw3_0716055/hw3-0716055-王耀德.html"
+            target="_blank"
+          >
             hw3
-          </a></el-menu-item></el-menu-item>
+          </a></el-menu-item
+        >
         <el-menu-item index="3-3">
           <a class="hw" href="/hw4_0716055/OOJS3.html" target="_blank">
             hw4
-          </a></el-menu-item></el-menu-item>
+          </a></el-menu-item
+        >
       </el-submenu>
       <el-menu-item index="4"
         ><a href="https://www.nctu.edu.tw" target="_blank"
@@ -48,15 +59,18 @@
         <el-menu-item index="3-1">
           <a href="/hw2_0716055/hw2-0716055-王耀德.html" target="_blank">
             hw2
-          </a></el-menu-item>
+          </a></el-menu-item
+        >
         <el-menu-item index="3-2">
           <a href="/hw3_0716055/hw3-0716055-王耀德.html" target="_blank">
             hw3
-          </a></el-menu-item></el-menu-item>
+          </a></el-menu-item
+        >
         <el-menu-item index="3-3">
           <a href="/hw4_0716055/OOJS3.html" target="_blank">
             hw4
-          </a></el-menu-item></el-menu-item>
+          </a></el-menu-item
+        >
       </el-submenu>
       <el-menu-item index="4"
         ><a href="https://www.nctu.edu.tw" target="_blank"
@@ -79,6 +93,9 @@
     </div>
     <div class="content" v-if="subIndex === '3,3-3'">
       <Hw4 />
+    </div>
+    <div class="content" v-if="activeIndex === '4'">
+      Welcome to my College!!
     </div>
   </div>
 </template>
@@ -115,6 +132,10 @@ export default {
 </script>
 
 <style>
+.nav-wrapper {
+  background-color: rgb(186, 204, 181);
+}
+
 .nav-bar-h {
   display: block;
 }
@@ -123,8 +144,16 @@ export default {
   display: none;
 }
 
-.content{
-  margin-left: 10px;
+.content {
+  margin-left: 20%;
+  min-height: 700px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 .hw {
@@ -138,6 +167,11 @@ export default {
 
   .nav-bar-v {
     display: block;
+  }
+
+  .content {
+    margin-left: 7%;
+    min-height: 700px;
   }
 }
 </style>

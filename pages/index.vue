@@ -36,7 +36,7 @@ export default {
     background-color: rgb(255, 255, 255);
   }
   50% {
-    background-color: rgb(159, 202, 147);
+    background-color: rgb(243, 77, 77);
   }
   100% {
     background-color: rgb(255, 255, 255);
@@ -46,12 +46,17 @@ export default {
 .footer {
   width: 1000px;
   height: 10%;
-  position: relative;
 }
 
 @media only screen and (max-width: 480px) {
+#app {
+  width: 100%;
+  animation: Cool 5s infinite;
+  line-height: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
   .footer {
-    height: 60px;
+    height: 10%;
     position: relative;
   }
 }

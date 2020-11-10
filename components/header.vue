@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    <h1>至少有一標題, 其他自由發揮</h1>
+    <h1>Hello, I'm Chris!</h1>
     <br />
   </div>
 </template>
