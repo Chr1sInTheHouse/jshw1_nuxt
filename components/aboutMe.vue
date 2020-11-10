@@ -34,7 +34,7 @@
       <el-row>
         <el-col>
           <div>
-            <img src="/hwjs1_nuxt/me.jpg" width="300" height="400" />
+            <img src="/me.jpg" width="300" height="400" />
           </div>
         </el-col>
       </el-row>
