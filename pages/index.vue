@@ -25,25 +25,28 @@ export default {
 #app {
   width: 1000px;
   margin: 0 auto;
-  min-height: 100%;
+  height: 100%;
   animation: Cool 5s infinite;
+  line-height: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @keyframes Cool {
-  0% {background-color: rgb(255, 255, 255);}
-  50% {background-color: rgb(159, 202, 147);}
-  100% {background-color: rgb(255, 255, 255);}
-}
-
-.nav {
-  min-height: 100%;
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  50% {
+    background-color: rgb(159, 202, 147);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
 }
 
 .footer {
   width: 1000px;
   height: 10%;
-  position: absolute;
-  bottom: 0;
+  position: relative;
 }
 
 @media only screen and (max-width: 480px) {

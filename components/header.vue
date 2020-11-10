@@ -1,5 +1,9 @@
 <template>
-  <h1>至少有一標題, 其他自由發揮</h1>
+  <div>
+    <br />
+    <h1>至少有一標題, 其他自由發揮</h1>
+    <br />
+  </div>
 </template>
 
 <script>
@@ -9,7 +13,6 @@ export default {};
 <style>
 h1 {
   text-align: center;
-  margin-top: 2%;
 }
 
 @media only screen and (max-width: 480px) {

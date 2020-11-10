@@ -13,8 +13,8 @@ export default {};
 <style>
 .footer {
   height: 100%;
+  background-color: rgb(159, 202, 147);
 }
-
 
 .mail {
   margin: 1%;

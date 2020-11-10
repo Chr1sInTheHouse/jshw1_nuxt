@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    display: inline-table;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+td,
+.like-table{
+    border:1px solid #000;
+    text-align: center;
+}

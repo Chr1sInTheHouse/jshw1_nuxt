@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="about">
     <div class="big">
       <el-row>
         <el-col :span="8">
@@ -67,6 +67,10 @@ export default {};
 </script>
 
 <style>
+.about {
+  min-height: 640px;
+}
+
 .big {
   display: block;
 }

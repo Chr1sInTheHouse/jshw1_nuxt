@@ -17,26 +17,36 @@
       <ul>
         <li>Data Structure</li>
         <li>Algorithm</li>
+        <li>Operating System</li>
       </ul>
     </el-card>
     <el-card class="box-card">
       <div slot="header" class="clearfix">
-        <span>Front end</span>
+        <span>Network Basic</span>
       </div>
       <ul>
-        <li>html</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li>Introdiction to Computer Network</li>
+        <li>Pronsiple of Network Communication</li>
+        <li>Network Programing</li>
       </ul>
     </el-card>
     <el-card class="box-card">
       <div slot="header" class="clearfix">
-        <span>Front end</span>
+        <span>Machine Learning</span>
       </div>
       <ul>
-        <li>html</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li>Machine Learning</li>
+        <li>Reinforce Learning</li>
+      </ul>
+    </el-card>
+    <el-card class="box-card">
+      <div slot="header" class="clearfix">
+        <span>Programing Language</span>
+      </div>
+      <ul>
+        <li>c/c++</li>
+        <li>Python</li>
+        <li>Matlab</li>
       </ul>
     </el-card>
   </div>
@@ -51,6 +61,7 @@ export default {};
   display: flex;
   flex-wrap: wrap;
   background: transparent;
+  min-height: 650px;
 }
 
 .text {
@@ -73,7 +84,7 @@ export default {};
 .box-card {
   width: 250px;
   height: 300px;
-  margin: 10px;
+  margin: 15px;
 }
 
 @media only screen and (max-width: 480px) {
