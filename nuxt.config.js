@@ -7,6 +7,7 @@ const routerBase =
       }
     : {}
 export default {
+  ...routerBase,
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
   target: 'static',
@@ -49,5 +50,4 @@ export default {
   build: {
     transpile: [/^element-ui/],
   },
-  ...routerBase,
 }
