@@ -8,6 +8,9 @@ const routerBase =
     : {}
 export default {
   //...routerBase,
+  router: {
+    base: '/jshw1_nuxt/'
+  },
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
   target: 'static',
