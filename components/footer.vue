@@ -4,35 +4,33 @@
       <el-col :span="2">
         <el-avatar class="icon"  icon="el-icon-user-solid"></el-avatar>
       </el-col>
-      <el-col :span="3">
+      <el-col :span="2">
         <el-button class="button" type="info" icon="el-icon-message" round>
           <a class="mail-address" href="mailto:bpploabc@gmail.com">Mail</a>
         </el-button>
       </el-col>
-      <el-col :span="2">
-        <el-button class="button-h" type="info" icon="el-icon-message" round>
+      <el-col :span="4">
+        <el-button class="button-h" :size="'small'" type="info" icon="el-icon-message" round>
           <a class="mail-address" href="mailto:bpploabc@gmail.com">M</a>
         </el-button>
       </el-col>
-      <el-col :span="4">
+      <el-col :span="2">
         <el-button class="button" type="primary" icon="el-icon-user-solid" round>
           <a class="mail-address" href="https://www.facebook.com/eric.justin.92">Facebook</a>
         </el-button>
       </el-col>
-      <el-col :span="2">
-        <el-button class="button-h" type="primary" icon="el-icon-user-solid" round>
+      <el-col :span="1">
+        <el-button class="button-h" :size="'small'" type="primary" icon="el-icon-user-solid" round>
           <a class="mail-address" href="https://www.facebook.com/eric.justin.92">F</a>
         </el-button>
       </el-col>
-      <el-col :span="15">
+      <el-col :span="16">
         <el-button class="button" type="danger" @click="open" style="float: right;" icon="el-icon-thumb" round>
           Login
         </el-button>
       </el-col>
-      <el-col :span="4">
-        <el-button class="button-h" type="danger" @click="open" icon="el-icon-thumb" round>
+        <el-button class="button-h" :size="'small'" type="danger" style="float: right;" @click="open" icon="el-icon-thumb" round>
         </el-button>
-      </el-col>
     </el-row>
   </div>
 </template>
@@ -94,9 +92,8 @@
 }
 
 .button-h {
-  margin: 20px;
-  text-align: center;
-  display: block;
+  margin: 25px;
+  display: inline;
 }
 }
 </style>
