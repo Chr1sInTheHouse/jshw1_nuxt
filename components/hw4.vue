@@ -9,10 +9,9 @@
           icon="el-icon-view"
           type="primary"
           round
+          @click="openHw(4)"
         >
-          <a class="openHW" href="/jshw1_nuxt/hw4_0716055/OOJS3.html" target="_blank">
-            View HW4
-          </a>
+          View HW4
         </el-button>
       </div>
       <ul>
@@ -23,7 +22,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    openHw(num) {
+      if (num == 2) {
+        window.open("/jshw1_nuxt/hw2_0716055/hw2-0716055-王耀德.html");
+      } else if (num == 3) {
+        window.open("/jshw1_nuxt/hw3_0716055/hw3-0716055-王耀德.html");
+      } else if (num == 4) {
+        window.open("/jshw1_nuxt/hw4_0716055/OOJS3.html");
+      } else if (num == 5) {
+        window.open("https://www.nctu.edu.tw");
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>

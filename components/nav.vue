@@ -13,35 +13,11 @@
       <el-menu-item index="2">專長</el-menu-item>
       <el-submenu index="3">
         <template slot="title">作業</template>
-        <el-menu-item index="3-1">
-          <a
-            class="hw"
-            href="/hw2_0716055/hw2-0716055-王耀德.html"
-            target="_blank"
-          >
-            hw2
-          </a></el-menu-item
-        >
-        <el-menu-item index="3-2">
-          <a
-            class="hw"
-            href="/hw3_0716055/hw3-0716055-王耀德.html"
-            target="_blank"
-          >
-            hw3
-          </a></el-menu-item
-        >
-        <el-menu-item index="3-3">
-          <a class="hw" href="/hw4_0716055/OOJS3.html" target="_blank">
-            hw4
-          </a></el-menu-item
-        >
+        <el-menu-item index="3-1" @click="openHw(2)"> hw2 </el-menu-item>
+        <el-menu-item index="3-2" @click="openHw(3)"> hw3 </el-menu-item>
+        <el-menu-item index="3-3" @click="openHw(4)"> hw4 </el-menu-item>
       </el-submenu>
-      <el-menu-item index="4"
-        ><a href="https://www.nctu.edu.tw" target="_blank"
-          >NCTU</a
-        ></el-menu-item
-      >
+      <el-menu-item index="4" @click="openHw(5)"> NCTU </el-menu-item>
     </el-menu>
     <el-menu
       :default-active="activeIndex"
@@ -56,29 +32,13 @@
       <el-menu-item index="2">專長</el-menu-item>
       <el-submenu index="3">
         <template slot="title">作業</template>
-        <el-menu-item index="3-1">
-          <a href="/jshw1_nuxt/hw2_0716055/hw2-0716055-王耀德.html" target="_blank">
-            hw2
-          </a></el-menu-item
-        >
-        <el-menu-item index="3-2">
-          <a href="/jshw1_nuxt/hw3_0716055/hw3-0716055-王耀德.html" target="_blank">
-            hw3
-          </a></el-menu-item
-        >
-        <el-menu-item index="3-3">
-          <a href="/jshw1_nuxt/hw4_0716055/OOJS3.html" target="_blank">
-            hw4
-          </a></el-menu-item
-        >
+        <el-menu-item index="3-1" @click="openHw(2)"> hw2 </el-menu-item>
+        <el-menu-item index="3-2" @click="openHw(3)"> hw3 </el-menu-item>
+        <el-menu-item index="3-3" @click="openHw(4)"> hw4 </el-menu-item>
       </el-submenu>
-      <el-menu-item index="4"
-        ><a href="https://www.nctu.edu.tw" target="_blank"
-          >NCTU</a
-        ></el-menu-item
-      >
+      <el-menu-item index="4" @click="openHw(5)"> NCTU </el-menu-item>
     </el-menu>
-    
+
     <br />
     <div class="content" v-if="activeIndex === '1'">
       <About />
@@ -127,6 +87,17 @@ export default {
       console.log(key, keyPath);
       this.activeIndex = String(key);
       this.subIndex = String(keyPath);
+    },
+    openHw(num) {
+      if (num == 2) {
+        window.open("/jshw1_nuxt/hw2_0716055/hw2-0716055-王耀德.html");
+      } else if (num == 3) {
+        window.open("/jshw1_nuxt/hw3_0716055/hw3-0716055-王耀德.html");
+      } else if (num == 4) {
+        window.open("/jshw1_nuxt/hw4_0716055/OOJS3.html");
+      } else if (num == 5) {
+        window.open("https://www.nctu.edu.tw");
+      }
     },
   },
 };
