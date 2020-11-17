@@ -77,12 +77,12 @@ export default {
   },
   methods: {
     onResize() {
-      if (window.innerWidth >= 480) {
+      if (window.innerWidth > 480) {
         this.display = 1;
-        console.log(this.display);
+        console.log(window.innerWidth);
       } else {
         this.display = 2;
-        console.log(this.display);
+        console.log(window.innerWidth);
       }
     },
     open() {
